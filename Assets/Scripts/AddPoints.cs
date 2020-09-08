@@ -15,19 +15,22 @@ public class AddPoints : MonoBehaviour {
 
 	void OnCollisionEnter(Collision col)
 	{
-		if (col.gameObject.tag == "collectible5pt")
-		{
-			Debug.Log ("5 points were added");
-			Destroy (col.gameObject);
-			score += 5;
-			scoreText.text = "Score: " + score.ToString ();
-		}
-
 		if (col.gameObject.tag == "minus10pt")
 		{
 			Debug.Log ("10 points were removed");
 			Destroy (col.gameObject);
 			score -= 10;
+			scoreText.text = "Score: " + score.ToString ();
+		}
+	}
+
+	void OnTriggerEnter(Collider col)
+	{
+		if (col.gameObject.tag == "collectible5pt")
+		{
+			Debug.Log ("5 points were added");
+			Destroy (col.gameObject);
+			score += 5;
 			scoreText.text = "Score: " + score.ToString ();
 		}
 	}
