@@ -10,6 +10,7 @@ TagManager:
   - floor
   - deathZone
   - collectible5pt
+  - minus10pt
   layers:
   - Default
   - TransparentFX

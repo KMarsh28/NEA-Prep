@@ -4,7 +4,7 @@
     <Files>
       <File FileName="Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\CheckDeath.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AddPoints.cs" Line="12" Column="29" />
+      <File FileName="Assets\Scripts\AddPoints.cs" Line="31" Column="51" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -34,12 +34,12 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if (Input.GetKey (KeyCode.RightArrow)) 
+		if (Input.GetKey (KeyCode.D)) 
 		{
 			rb.AddForce (new Vector3 (1, 0, 0), ForceMode.Impulse);
 		}
 
-		if (Input.GetKey (KeyCode.LeftArrow)) 
+		if (Input.GetKey (KeyCode.A)) 
 		{
 			rb.AddForce (new Vector3 (-1, 0, 0), ForceMode.Impulse);
 		}
