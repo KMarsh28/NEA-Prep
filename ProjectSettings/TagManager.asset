@@ -11,6 +11,7 @@ TagManager:
   - deathZone
   - collectible5pt
   - minus10pt
+  - boss
   layers:
   - Default
   - TransparentFX

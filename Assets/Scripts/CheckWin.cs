@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CheckWin : MonoBehaviour {
 
@@ -22,6 +23,11 @@ public class CheckWin : MonoBehaviour {
 		else if (gameScore < 0) 
 		{
 			Debug.Log ("LOSER!");
+		}
+
+		if (Time.fixedTime > 30) 
+		{
+			SceneManager.LoadScene (2);
 		}
 	}
 }

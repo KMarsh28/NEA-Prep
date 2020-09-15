@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class AddPoints : MonoBehaviour {
 
@@ -29,7 +30,7 @@ public class AddPoints : MonoBehaviour {
 	{
 		if (col.gameObject.tag == "minus10pt")
 		{
-			Debug.Log ("10 points were removed");
+			//Debug.Log ("10 points were removed");
 			Destroy (col.gameObject);
 			score -= 10;
 			scoreText.text = "Score: " + score.ToString ();
@@ -42,12 +43,17 @@ public class AddPoints : MonoBehaviour {
 	{
 		if (col.gameObject.tag == "collectible5pt")
 		{
-			Debug.Log ("5 points were added");
+			//Debug.Log ("5 points were added");
 			Destroy (col.gameObject);
 			score += 5;
 			scoreText.text = "Score: " + score.ToString ();
 			count5pt -= 1;
 			goodText.text = "Good: " + count5pt.ToString ();
+		}
+
+		if (col.gameObject.tag == "boss")
+		{
+			SceneManager.LoadScene (1);
 		}
 	}
 }

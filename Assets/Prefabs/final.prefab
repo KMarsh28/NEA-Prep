@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 65776017794310164}
   m_Layer: 0
   m_Name: final
-  m_TagString: collectible5pt
+  m_TagString: boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
