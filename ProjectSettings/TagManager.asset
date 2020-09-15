@@ -12,6 +12,7 @@ TagManager:
   - collectible5pt
   - minus10pt
   - boss
+  - hero
   layers:
   - Default
   - TransparentFX
@@ -48,4 +49,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 2305946785
+    locked: 0
+  - name: foreground
+    uniqueID: 833546537
     locked: 0

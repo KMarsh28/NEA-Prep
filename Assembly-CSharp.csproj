@@ -57,9 +57,11 @@
      <Compile Include="Assets\Scripts\CheckDeath.cs" />
      <Compile Include="Assets\Scripts\CheckWin.cs" />
      <Compile Include="Assets\Scripts\DinoAnimation.cs" />
+     <Compile Include="Assets\Scripts\HeroMovement.cs" />
      <Compile Include="Assets\Scripts\InstantiateBoss.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SoundManager.cs" />
+     <Compile Include="Assets\Scripts\Spikes.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
