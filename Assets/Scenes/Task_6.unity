@@ -1423,6 +1423,7 @@ GameObject:
   - component: {fileID: 630352967}
   - component: {fileID: 630352968}
   - component: {fileID: 630352969}
+  - component: {fileID: 630352970}
   m_Layer: 0
   m_Name: Player
   m_TagString: player
@@ -1550,6 +1551,18 @@ MonoBehaviour:
   scoreText: {fileID: 2129897152}
   goodText: {fileID: 1357418736}
   badText: {fileID: 1693190562}
+--- !u!114 &630352970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 630352961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca229fa72020dc4aa44b1ea4bdf4f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 131541065}
 --- !u!4 &671165383 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4551350859518792, guid: 6bf792dfa0db95643bfc96af5257ef4c,

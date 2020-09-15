@@ -11,9 +11,9 @@ public class CheckWin : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		timerText.text = "Time: " + Time.timeSinceLevelLoad.ToString ();	
+		timerText.text = "Time: " + Time.fixedTime.ToString ();	
 		/*Finds the object tagged as player, then finds the script attached called AddPoints, then pulls out the score value*/
-		gameScore = GameObject.FindWithTag ("player").GetComponent<AddPoints> ().score;
+		gameScore = GameObject.FindWithTag ("player").GetComponent<AddPoints>().score;
 		//Debug.Log ("Game score = " + gameScore);
 		if (gameScore >= 10) 
 		{
