@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\DinoAnimation.cs" />
      <Compile Include="Assets\Scripts\HeroMovement.cs" />
      <Compile Include="Assets\Scripts\InstantiateBoss.cs" />
+     <Compile Include="Assets\Scripts\Navigation.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SoundManager.cs" />
      <Compile Include="Assets\Scripts\Spikes.cs" />
